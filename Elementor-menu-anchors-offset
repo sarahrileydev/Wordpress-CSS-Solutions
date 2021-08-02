@@ -1,0 +1,11 @@
+Adjust Sticky Header Offset for Anchor Links
+If you are using a Sticky Header and anchor links, the sticky header may overlap the top portion of the anchor linked content. If that happens, add the following code to your CSS (Appearance > Editor > Additional CSS). Be sure to change the “80px” below to match the height of your fixed header.
+
+body:not(.elementor-editor-active) .elementor-menu-anchor:before {
+  content: "";
+  display:block;
+  height: 80px; /* fixed header height*/
+  margin: -80px 0 0; /* negative fixed header height */
+  visibility: hidden;
+  pointer-events: none;
+}
