@@ -1,0 +1,67 @@
+.tribe-events-c-subscribe-dropdown > div.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button, .tribe-events-c-top-bar__datepicker .active {
+	border: 0 !important;
+	border-radius: 0;
+	background-color: #E4EDDC !important;
+	color: #29371d !important;
+}
+
+.tribe-events-schedule h2, .tribe-events-content p {
+	font-family: "Proxima Nova", sans-serif !important;
+	color: #636466 !important;
+	font-size: 15px;
+	
+}
+.tribe-events-single-event-title, .tribe-events-related-events-title {
+	color: #29371d !important;
+	padding-top: 5%;
+	font-family: "Trajan Pro Bold", sans-serif !important;
+}
+
+.tribe-events-back {
+	display: none;
+}
+
+
+.tribe-events-event-meta a:focus, .tribe-events-event-meta a:hover {
+	color: #8FB36D !important;
+}
+
+.tribe-events-c-subscribe-dropdown > div.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button:hover {
+	background-color: #8FB36D !important;
+	color: #ffffff !important;
+}
+
+.tribe-events-event-image img {
+	height: 500px !important;
+	width: 100%;
+	object-fit: cover;
+}
+
+.tribe-events-widget-events-list__event-details{
+	padding-left: 20px !important;
+}
+.tribe-events-widget-events-list__view-more {
+	display: none !important;
+}
+
+.tribe-common a {
+	color: #8FB36D !important;
+	font-family: proxima nova !important;
+	font-size: 15px;
+}
+
+.tribe-common a:hover {
+border: none !important;
+	color: #636466 !important;
+}
+
+.tribe-events-widget-events-list__event-date-tag-daynum, .tribe-events-widget-events-list__event-datetime-wrapper, .tribe-events-calendar-list__event-date-tag-daynum, .tribe-events-calendar-list__event-datetime-wrapper time, .tribe-events-calendar-list__event-details.tribe-common-g-col > header > address, .tribe-events-calendar-list__event-details.tribe-common-g-col > div > p, .tribe-events-c-nav__list-item--next > button, .tribe-events-calendar-list  time, .tribe-related-event-info h3, .tribe-related-event-info span, #post-945 > div.tribe-events-single-section.tribe-events-event-meta.primary.tribe-clearfix {
+	color: #636466 !important;
+	font-family: proxima nova !important;
+}
+
+.tribe-events-calendar-list__event-featured-image-wrapper img{
+	height: 200px !important;
+	width: 100%;
+	object-fit: cover;
+}
